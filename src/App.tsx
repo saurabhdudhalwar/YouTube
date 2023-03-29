@@ -12,16 +12,16 @@ function App() {
         <div>
           <Header />
         </div>
-        <div>
-          <div>
-            <div>
+        <div className="playerContainer">
+          <div className="playerAndChannel">
+            <div className="player">
               <Player />
             </div>
-            <div>
+            <div className="channel">
               <Channel />
             </div>
           </div>
-          <div>
+          <div className="sideBox">
             <SideBox />
           </div>
         </div>

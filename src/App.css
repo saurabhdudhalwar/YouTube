@@ -4,5 +4,38 @@
     font-family: 'roboto';
 }
 .rootConatiner{
-
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;    
+}
+.playerContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 94vh;
+    padding-top: 4vh;
+    background: linear-gradient(to right,#100d11,#100d11,#5a4f73)
+}
+.playerAndChannel{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    height: 80vh;
+}
+.player{
+    background-color: aquamarine;
+    height: 70vh;
+}
+.channel{
+    background-color: antiquewhite;
+    height: 10vh;
+}
+.sideBox{
+    width: 30vw;
+    margin-right: 5vw;
+    background-color: aqua;
+    height: 80vh;
 }

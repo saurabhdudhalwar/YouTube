@@ -1,5 +1,5 @@
 .mainContainer{
-    position: sticky;
+    /* position: sticky; */
     width: 100vw;
     height: 6vh;
     background: linear-gradient(to right,#100d11,#100d11,#5a4f73)

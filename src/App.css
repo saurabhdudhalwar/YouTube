@@ -17,6 +17,43 @@
     padding-top: 4vh;
     background: linear-gradient(to right,#100d11,#100d11,#5a4f73)
 }
+@media screen and (max-width: 768px) {
+    .playerContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+        height: 400vh;
+        padding-top: 4vh;
+        background: linear-gradient(to right,#100d11,#100d11,#5a4f73)
+    }
+    .player{  
+        height: 70vh;
+        width: 90vw;
+    }
+    .channel{
+        padding-top: 10px;
+        height: 14vh;
+        width: 90vw;
+    }
+    .sideBox{
+        width: 90vw;
+        margin-right: 5vw;
+        height: 84vh;
+        
+    }
+    .mainContainerSide{
+        width: 90vw;
+        margin-left: 5vw;
+        margin-top: 4vh;
+    }
+    .mainContainer{
+        width: 100vw;
+        height: 6vh;
+        background: linear-gradient(to right,#100d11,#100d11,#5a4f73)
+    }
+}
+   
+  
 .playerAndChannel{
     display: flex;
     flex-direction: column;
@@ -29,12 +66,11 @@
     height: 70vh;
 }
 .channel{
-    background-color: antiquewhite;
-    height: 10vh;
+    padding-top: 10px;
+    height: 14vh;
 }
 .sideBox{
     width: 30vw;
     margin-right: 5vw;
-    background-color: aqua;
-    height: 80vh;
+    height: 84vh;
 }

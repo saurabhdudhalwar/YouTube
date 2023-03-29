@@ -1,4 +1,17 @@
-.playerMainContainer{
-    width:"80vw";
-    height:"70vh";
-}
+
+.playerMainContainer {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .playerMainContainer iframe {
+    left: 0;
+    top: 0; 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    border: none;
+  }

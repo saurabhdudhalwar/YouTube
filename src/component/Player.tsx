@@ -9,7 +9,7 @@ const Player = () => {
           title="player"
           width="80vw"
           height="70vh"
-          src={"https://www.youtube.com/watch?v=imjfiXxvMD8"}
+          src={"https://www.youtube.com/embed/s4BibernJxU"}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />

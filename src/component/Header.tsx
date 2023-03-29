@@ -1,15 +1,21 @@
 import React from "react";
 import "./styles/Header.css";
-import menu from "../assests/Menu.png";
+import { MenuBar, YouTube } from "../assests/Icons";
+
 const Header = () => {
   return (
     <>
       <div className="mainContainer">
         <div className="subContainer">
           <span>
-            <img src={menu} alt="menu" />
+            <MenuBar />
           </span>
-          <span></span>
+          <span className="youtubeLogo">
+           <YouTube />
+          </span>
+          <span>
+            
+          </span>
         </div>
       </div>
     </>

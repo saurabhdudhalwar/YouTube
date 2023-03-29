@@ -2,5 +2,13 @@
     position: sticky;
     width: 100vw;
     height: 6vh;
-    background:#151515
+    background: linear-gradient(to right,#100d11,#100d11,#5a4f73)
+}
+.subContainer{
+    display: flex;
+    flex-direction: row;
+}
+.youtubeLogo{
+    margin-left: 16px;
+    transform: scale(0.8);
 }
